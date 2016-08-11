@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="activiti-explorer-0.0.1-SNAPSHOT">
+    <feature version="0.0.0">
+        <feature prerequisite="false" dependency="false">wrap</feature>
+        <bundle>mvn:com.vaadin/vaadin/6.8.8</bundle>
+        <bundle>mvn:org.activiti/activiti-explorer/5.21.0</bundle>
+        <bundle>wrap:mvn:org.vaadin.addons/dcharts-widget/0.10.0</bundle>
+    </feature>
+</features>
