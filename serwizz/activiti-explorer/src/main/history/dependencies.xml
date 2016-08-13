@@ -3,7 +3,23 @@
     <feature version="0.0.0">
         <feature prerequisite="false" dependency="false">wrap</feature>
         <bundle>mvn:com.vaadin/vaadin/6.8.8</bundle>
+        <bundle>mvn:commons-io/commons-io/2.0.1</bundle>
+        <bundle>mvn:org.activiti/activiti-bpmn-converter/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-bpmn-layout/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-bpmn-model/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-crystalball/5.21.0</bundle>
         <bundle>mvn:org.activiti/activiti-explorer/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-image-generator/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-json-converter/5.21.0</bundle>
+        <bundle>mvn:org.activiti/activiti-simple-workflow/5.21.0</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.gwt-dev/2.6.0_1</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.gwt-servlet/2.6.0_1</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.gwt-user/2.6.0_1</bundle>
+        <bundle>mvn:org.ops4j.pax.web/pax-web-api/4.2.7</bundle>
+        <bundle>mvn:org.ops4j.pax.web/pax-web-extender-whiteboard/4.2.7</bundle>
+        <bundle>wrap:mvn:math.geom2d/javaGeom/0.11.1</bundle>
+        <bundle>wrap:mvn:org.imgscalr/imgscalr-lib/4.2</bundle>
+        <bundle>wrap:mvn:org.tinyjee.jgraphx/jgraphx/1.10.4.1</bundle>
         <bundle>wrap:mvn:org.vaadin.addons/dcharts-widget/0.10.0</bundle>
     </feature>
 </features>

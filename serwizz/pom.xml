@@ -12,5 +12,10 @@
     <module>serwizz-platform</module>
     <module>serwizz-bpm</module>
     <module>activiti-explorer</module>
+    <module>serwizz-camel-example</module>
+    <module>serwizz-netty4-http-server</module>
+    <module>serwizz-test-serviceone</module>
+    <module>serwizz-test-servicetwo</module>
+    <module>serwizz-test-restone</module>
   </modules>
 </project>

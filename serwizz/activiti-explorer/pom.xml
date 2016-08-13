@@ -37,6 +37,12 @@
 		<activiti.version>5.21.0</activiti.version>
 		<vaadin.version>6.8.8</vaadin.version>
 		<vaadin.addons.version>0.10.0</vaadin.addons.version>
+		<gwt.version>2.6.0_1</gwt.version>
+		<activiti.version>5.21.0</activiti.version>
+		<jgraph.version>1.10.4.1</jgraph.version>
+		<geom.version>0.11.1</geom.version>
+		<imgscalr.version>4.2</imgscalr.version>
+		<commons-io.version>2.0.1</commons-io.version>
 	</properties>
 	
 	<repositories>
