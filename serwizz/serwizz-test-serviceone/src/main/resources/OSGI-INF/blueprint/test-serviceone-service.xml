@@ -22,11 +22,17 @@
   <!-- reference the shared http server -->
   <reference id="sharedNettyHttpServer" interface="org.apache.camel.component.netty4.http.NettySharedHttpServer"/>
 
+  
   <!-- Camel application which uses the netty-http component and the shared Netty HTTP server -->
   <camelContext id="test-serviceone" xmlns="http://camel.apache.org/schema/blueprint">
 
+	<dataFormats>
+		<json id="jackson" library="Jackson" unmarshalTypeName="org.serwizz.test.serviceone.Request"/>
+	</dataFormats>
+	
     <route id="http-route-one">
       <from uri="netty4-http:http://localhost/one?matchOnUriPrefix=true&amp;nettySharedHttpServer=#sharedNettyHttpServer"/>
+      <unmarshal ref="jackson"/>
       <to uri="bean:serviceone"/>
       <!-- transform>
         <simple>Response from Camel one on route ${routeId} using thread: ${threadName}</simple>
