@@ -17,5 +17,7 @@
     <module>serwizz-test-serviceone</module>
     <module>serwizz-test-servicetwo</module>
     <module>serwizz-test-restone</module>
+    <module>serwizz-activiti-engine</module>
+    <module>serwizz-camel-activiti-example</module>
   </modules>
 </project>
